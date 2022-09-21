@@ -56,14 +56,10 @@ class MainActivity : AppCompatActivity() {
     private fun getAllPosts(): ArrayList<Post>{
         val story = ArrayList<Post>()
 
-        story.add(Post(R.drawable.birds, "Abbos"))
-        story.add(Post(R.drawable.nissan, "Messi"))
-        story.add(Post(R.drawable.birds, "Benzama"))
-        story.add(Post(R.drawable.nissan, "Assensio"))
-        story.add(Post(R.drawable.birds, "Abbos"))
-        story.add(Post(R.drawable.nissan, "Messi"))
-        story.add(Post(R.drawable.birds, "Benzama"))
-        story.add(Post(R.drawable.nissan, "Assensio"))
+        story.add(Post(R.raw.video,"Abbosbek"))
+        story.add(Post(R.raw.videoo,"Abbosbek"))
+        story.add(Post(R.raw.video,"Abbosbek"))
+        story.add(Post(R.raw.videoo,"Abbosbek"))
         return story
     }
 }

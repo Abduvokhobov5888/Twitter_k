@@ -67,16 +67,12 @@
                     android:text="Barcahga hayirli tong"
                     android:maxWidth="290dp"/>
 
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:id="@+id/p_image"
-                    android:layout_width="match_parent"
+                <VideoView
+                    android:id="@+id/p_video"
+                    android:layout_width="wrap_content"
                     android:layout_height="200dp"
-                    android:scaleType="centerCrop"
                     android:layout_marginTop="10dp"
-                    android:layout_marginEnd="20dp"
-                    android:adjustViewBounds="true"
-                    app:shapeAppearanceOverlay="@style/border"
-                    android:src="@drawable/birds"/>
+                    android:layout_marginEnd="20dp" />
             </LinearLayout>
 
             <LinearLayout
